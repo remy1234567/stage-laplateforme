@@ -1,4 +1,4 @@
-var tableau = ["remy", "mylan", "lucas"];
+var tableau = ["remy", "mylan", "lucas","nicolas"];
 
 function calcul_longueur_tableau(tab)
 {

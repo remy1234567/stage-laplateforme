@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="chronos.css">
+    <script type="text/javascript" src="chronomètre_123.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="upper-body">
+        <div class="hour" id="screen">
+            <span class="number" id ="hour">00</span>
+            <span class="label-number">H</span>
+        </div>
+        <div class="minute">
+            <span class="number" id ="minute">00</span>
+            <span class="label-number">m</span>
+        </div>
+        <div class="second">
+            <span class="number" id="second">00</span>
+            <span class="label-number">s</span>
+        </div>
+        <div class="milisecond">
+            <span class="number" id="milisecond">00</span>
+            <span class="label-number">ms</span>
+        </div>
+    </div>
+    <div class="lower-body">
+        <div class="tour_group" id="tour_group">
+        </div>
+        <div class="chronos_group">
+            <button id="button_1" onclick="reset(this.id)">Reset</button>
+            <button id="button_2" onclick="start(this.id)">Start</button>
+            <button id="button_3" onclick="tour(this.id)">Tour</button>
+            <button id="button_4" onclick="pause(this.id)">Pause</button>
+        </div>
+    </div>
+</body>

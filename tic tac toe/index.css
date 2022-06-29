@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.joueur{
+    background-color: #d5e0d4;
+    width: calc(80% / 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    border: 0.5px solid black;
+    
+}
+.display_player{
+    width: 100%;
+    text-align: center;
+    font-size: 30px !important;
+    display: block;
+}
+
+.colonne_group, .colonne_group2, .colonne_group3 {
+    width: 100%;
+    height: 33.33333333333333333333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8, .case9 {
+    background-color: #f0f0f0;
+    width: calc(80% / 3);
+    height: 100%;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 100px;
+    color: red;
+}

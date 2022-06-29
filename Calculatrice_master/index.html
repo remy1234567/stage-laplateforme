@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="calculatrice.js"></script>
+
+</head>
+
+<body>
+    <div class="frame">
+        <div class="upper-body">
+            <div class="screen" id="screen"></div>
+        </div>
+        <div class="lower-body">
+            <div class="number_button">
+                <div class="number_group">
+                    <button id="number_1" onclick="myFunction(this.id)">7</button>
+                    <button id="number_2" onclick="myFunction(this.id)">8</button>
+                    <button id="number_3" onclick="myFunction(this.id)">9</button>
+                    <button id="number_4" onclick="myFunction(this.id)">4</button>
+                    <button id="number_5" onclick="myFunction(this.id)">5</button>
+                    <button id="number_6" onclick="myFunction(this.id)">6</button>
+                    <button id="number_7" onclick="myFunction(this.id)">1</button>
+                    <button id="number_8" onclick="myFunction(this.id)">2</button>
+                    <button id="number_9" onclick="myFunction(this.id)">3</button>
+
+                </div>
+                <div class="zero_group">
+                    <button id="zero_0" onclick="myFunction(this.id)">0</button>
+
+                </div>
+
+            </div>
+            <div class="symbol_button">
+                <button id="divide" onclick="myFunction(this.id)">:</button>
+                <button id="multiplication" onclick="myFunction(this.id)">x</button>
+                <button id="soustraction" onclick="myFunction(this.id)">-</button>
+                <button id="addition" onclick="myFunction(this.id)">+</button>
+                <button id="egal" onclick="choose_symbol()">=</button>
+                <button id="supprimer" onclick="suppr_all()">AC</button>
+
+            </div>
+
+        </div>
+    </div>
+</body>
